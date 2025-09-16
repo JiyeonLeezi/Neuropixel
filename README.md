@@ -1,1 +1,1 @@
-# Neuropixel
+# Neuropixels
