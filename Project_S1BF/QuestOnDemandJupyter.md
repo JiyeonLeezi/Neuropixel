@@ -16,4 +16,5 @@ conda install ipykernel
 python -m ipykernel install --user --name=bombcell --display-name "bombcell"
 
 ## 2. Jupyter
-(1) Kernel name - bombcell
+(1) Open BombcellScript_sur_spikeGLX
+(2) Kernel name - bombcell
