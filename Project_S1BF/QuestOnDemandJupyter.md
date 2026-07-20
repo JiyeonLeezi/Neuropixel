@@ -4,18 +4,23 @@
 ### (1) mamba module load and setting environment
 
 module purge all
+
 module load mamba/24.3.0
+
 mamba create -n bombcell python=3.11
+
 conda activate bombcell
 
 ### (2) bombcell install
 
 pip install uv
+
 uv pip install bombcell
 
 ### (3) Kernel 
 
 conda install ipykernel
+
 python -m ipykernel install --user --name=bombcell --display-name "bombcell"
 
 ## 2. Jupyter
